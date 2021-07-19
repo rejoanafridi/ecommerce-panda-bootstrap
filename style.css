@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+     font-family: 'Poppins', sans-serif;
+
+}
+.search input, footer input{
+     width: 508px;
+     height: 48px;
+     background: #F1F1F1;
+
+
+}
+.nav-link{
+     color: #707070;
+     margin-right: 24px;
+
+}
+#carouselExampleControls, footer > div{
+     background: #FEEAE9;
+
+
+}
+footer{
+     margin-top: 20px;
+     background: #fff;
+}
+footer > div{
+     padding: 100px;
+     
+}
