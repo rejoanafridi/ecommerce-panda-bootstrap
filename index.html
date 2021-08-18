@@ -100,7 +100,7 @@
                                         veniam, a provident repellat dolorem minima assumenda molestias, recusandae quod
                                         ut nam odio consequuntur adipisci corporis aliquam asperiores molestiae!</p>
                                    <h3>$1278</h3>
-                                   <a class="btn btn-danger">Buy Now</a>
+                                   <a id='buy' class="btn btn-danger">Buy Now</a>
                               </div>
                               <div class="col-lg-5 col-md-5">
 
@@ -156,17 +156,17 @@
 
 
           <!-- Products  -->
-          <section class="container mt-5 ">
+          <section class="container mt-5  ">
 
                <div class="section-title d-flex justify-content-between">
                     <h1 class="my-3 fw-bolder">Products</h1>
                     <small class="text-warning">See all</small>
                </div>
-               <div class="row g-2">
+               <div class=" row g-2">
 
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div id="curd" class="col-12 col-sm-12 col-md-6 col-lg-4 curd ">
                          <div
-                              class="p-3 d-flex justify-content-center align-items-center flex-column  shadow rounded bg-white">
+                              class="balcal p-3 d-flex justify-content-center align-items-center flex-column  shadow rounded bg-white">
 
                               <img class="img-fluid" src="./images/shoes/shoe-1.png" alt="">
                               <h3>Adidas</h3>
@@ -174,16 +174,16 @@
                                    asperiores, laudantium laboriosam.</p>
                               <h4>400$</h4>
                               <div>
-                                   <a class="btn btn-dark text-white">
+                                   <a class="product_remove btn btn-dark text-white">
                                         Buy Now &rarr;
                                    </a>
 
                               </div>
                          </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4  curd">
                          <div
-                              class="p-3 d-flex justify-content-center align-items-center flex-column shadow rounded  bg-white">
+                              class="balcal p-3 d-flex justify-content-center align-items-center flex-column shadow rounded  bg-white">
 
                               <img class="img-fluid" src="./images/shoes/shoe-2.png" alt="">
                               <h3>Adidas</h3>
@@ -191,16 +191,16 @@
                                    asperiores, laudantium laboriosam.</p>
                               <h4>400$</h4>
                               <div>
-                                   <a class="btn btn-dark text-white">
+                                   <a class="product_remove btn btn-dark text-white">
                                         Buy Now &rarr;
                                    </a>
 
                               </div>
                          </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 curd ">
                          <div
-                              class="p-3 d-flex justify-content-center align-items-center flex-column shadow rounded  bg-white">
+                              class="balcal p-3 d-flex justify-content-center align-items-center flex-column shadow rounded  bg-white">
 
                               <img class="img-fluid" src="./images/shoes/shoe-3.png" alt="">
                               <h3>Adidas</h3>
@@ -208,7 +208,7 @@
                                    asperiores, laudantium laboriosam.</p>
                               <h4>400$</h4>
                               <div>
-                                   <a class="btn btn-dark text-white">
+                                   <a  class="product_remove btn btn-dark text-white">
                                         Buy Now &rarr;
                                    </a>
 
@@ -223,7 +223,7 @@
 
           </section>
           <!-- BackPack -->
-          <section class="container mt-5 ">
+          <section id="backpack" class="container mt-5 ">
 
                <div class="section-title d-flex justify-content-between">
                     <h1 class="my-3 fw-bolder">BackPack</h1>
@@ -291,13 +291,13 @@
           </section>
      </main>
      <!-- Footer -->
-     <footer>
+     <footer id="footer">
           <div class="container d-flex justify-content-center align-items-center flex-column">
                <h1>Lets Stay In Touch</h1>
                <p>Get Updates on sales or special more </p>
                <div>
-                    <input class="bg-white border"  type="email" placeholder="enter your email address" required>
-                    <a href="#" class="btn btn-danger p-2">Send</a>
+                    <input id="email-check" class="bg-white border" type="email" placeholder="enter your email address" required>
+                    <button onclick="alert('thanks for the subscription');" id="send-btn" type="button" class="btn btn-danger p-2" disabled>Send</button>
                </div>
           </div>
 
@@ -308,6 +308,9 @@
 
      <!-- Js -->
      <script src="./bootstrap/dist/js/bootstrap.bundle.min.js">
+     </script>
+     <script src="./script.js">
+
      </script>
 </body>
 
